@@ -3,10 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Farmtrics</title>
 		<link 
 			rel="stylesheet"
@@ -37,7 +34,7 @@
 						<h3 class=" text-white text-center text-xl leading-8 mb-12">Bringing new knowledge to the world through<br><span class="font-semibold ">agricultural surveys and data</span></h3>
                         <div class="relative">
                             <div class="absolute bg-white -inset-1 blur opacity-50 rounded-[14px]"></div>
-                            <div class="relative bg-forestgreen rounded-[14px]  drop-shadow-sm hidden md:block">
+                            <div class="relative bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
 							    <a href="demo.html" class="py-4 px-10 inline-block text-lg text-white">Get Started</a>
 						    </div>
                         </div>
