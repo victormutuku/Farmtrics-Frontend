@@ -7,11 +7,15 @@
     <title>@yield('title') | Farmtrics</title>
 </head>
 <body class="min-h-full">
+
     <div class="h-full">
+
         @extends('layouts.navbar')
+
         <main>
             @yield('content')
         </main>
+        
         @extends('layouts.footer')
     </div>
     
