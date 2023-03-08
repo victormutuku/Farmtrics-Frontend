@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link 
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"/>
+            @vite('resources/css/app.css')
+    </head>
     <header class=" h-20 fixed w-full top-0 z-20 "> 
 
         <nav class="flex h-full md:justify-around justify-between items-center relative w-full bg-white">
@@ -16,7 +28,7 @@
 
             <div class="relative ">
                 <h1 class="text-3xl font-bold">
-                    <a href="index.html">Farmtrics </a>
+                    <a href="/pricing">Farmtrics </a>
                 </h1>
             </div>
 
