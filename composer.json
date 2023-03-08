@@ -1,4 +1,16 @@
 {
     "name": "dell/lets_try_this",
-    "require": {}
+    "require": {
+        "laravel/framework": "^10.3",
+        "laravel/sanctum": "^3.2",
+        "nunomaduro/collision": "^7.1",
+        "spatie/laravel-ignition": "^2.0",
+        "laravel/sail": "^1.21",
+        "laravel/tinker": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
 }
