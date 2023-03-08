@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
          @vite('resources/css/app.css')
     </head>
-<footer class="text-center lg:text-left bg-forestgreen text-gray-100 rounded-t-[54px] px-[20px]">
+<footer class="text-center lg:text-left bg-forestgreen text-gray-100 px-[20px]">
     <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div class="mr-12 hidden lg:block">
         <span>Get connected with us on social networks:</span>
