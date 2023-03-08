@@ -28,7 +28,7 @@
 
             <div class="relative ">
                 <h1 class="text-3xl font-bold">
-                    <a href="/pricing">Farmtrics </a>
+                    <a href="/">Farmtrics </a>
                 </h1>
             </div>
 
@@ -83,7 +83,7 @@
                         rounded [&>li>a]:py-1 [&>li>a]:px-3 shadow-md w-56">
                         <li>
                             <a
-                                href="contact_page.html"
+                                href="/contact"
                                 class="hover:bg-blue-600 flex gap-1 
                                 items-center duration-500 transition-all">
                                 <span>Contact Us</span>
@@ -145,7 +145,7 @@
                 </li>
 
                 <li class="group relative ">
-                    <a href="pricing.html">Pricing</a>
+                    <a href="/pricing">Pricing</a>
                 </li>
                 
                 <li class="group relative">
