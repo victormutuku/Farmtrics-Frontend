@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Farmtrics</title>
+		<title>Homepage | Farmtrics</title>
 		<link 
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -16,7 +16,7 @@
 		<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js">
 		</script>
 	</head>
-	<body class="min-h-full">
+	<body class="min-h-full bg-gray-100">
 		<!--Content Wrapper-->
 		<div class="h-full"> 
 		
@@ -33,7 +33,7 @@
 						<h1 class="text-white font-bold  text-8xl text-start lg:text-center mb-6">Unearthing Insights</h1>
 						<h3 class=" text-white text-center text-xl leading-8 mb-12">Bringing new knowledge to the world through<br><span class="font-semibold ">agricultural surveys and data</span></h3>
                         <div class="relative">
-                            <div class="absolute bg-white -inset-1 blur opacity-50 rounded-[14px]"></div>
+                            <div class="absolute bg-green-100 -inset-1 blur opacity-50 rounded-[14px]"></div>
                             <div class="relative bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
 							    <a href="demo.html" class="py-4 px-10 inline-block text-lg text-white">Get Started</a>
 						    </div>
