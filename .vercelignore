@@ -1,4 +1,4 @@
 /vendor
 .gitignore
 /public/*.jpg
-/database
+/storage
