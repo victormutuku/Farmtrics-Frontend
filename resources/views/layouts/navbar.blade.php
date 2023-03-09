@@ -12,19 +12,19 @@
 			referrerpolicy="no-referrer"/>
             @vite('resources/css/app.css')
     </head>
-    <header class=" h-20 fixed w-full top-0 z-20 "> 
+    <header class=" h-20 fixed w-full top-0 z-20"> 
 
-        <nav class="flex h-full md:justify-around justify-between items-center relative w-full bg-white">
-            <!-- Mobile Nav Buttons -->
-            <button 
-                id="mobile-open-button" 
+        <nav class="flex h-full md:justify-around justify-between items-center relative w-full bg-gray-100">
+            <!-- Mobile Nav as -->
+            <a 
+                id="mobile-open-a" 
                 class="text-4xl focus:outline-none md:hidden
-                pl-4 cursor-pointer"> &#9776</button>
-            <button 
-                id="mobile-close-button" 
+                pl-4 cursor-pointer"> &#9776</a>
+            <a 
+                id="mobile-close-a" 
                 class="hidden text-6xl focus:outline-none md:hidden
-                pl-4 cursor-pointer">&times;</button>
-            <!-- End of Mobile Nav Buttons -->
+                pl-4 cursor-pointer">&times;</a>
+            <!-- End of Mobile Nav as -->
 
             <div class="relative ">
                 <h1 class="text-3xl font-bold">
@@ -34,159 +34,123 @@
 
             <ul
                 class="chev-parent  text-md [&>li>a]:py-5
-                [&>li>a]:px-3 md:flex hidden lg:gap-4 lg:mr-10">
+                [&>li>a]:px-3 md:flex hidden lg:gap-6 lg:mr-10">
 
-                <li class="group relative">
-                    <a href="#">
-                        Services
+                <li class="relative group">
+                    <div class="flex items-center">
+                        <a class="pr-1">Services</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
-                        <i class="fa-solid fa-chevron-up hidden"></i>
-                    </a>
-                    <ul
-                        class="ul-hidden hidden absolute top-10 bg-white
-                        rounded [&>li>a]:py-1 [&>li>a]:px-3 shadow-md w-56">
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Retail Execution</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Mobile Inspection</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Sales Force Automation</span>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
+                        <div class="top-6 px-3 pt-3 pb-5 rounded-md w-fit relative shadow-xl bg-white md:px-4">
+                            <ul class="cursor-pointer w-[250px]">
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg ">
+                                    <a>Field Automation</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a>Sales Automation</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a>Mobile Inspection</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a>Hybrid Survey Service</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a>No Code Workflow Builder</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
 
-                <li class="group relative">
-                    <a href="#">
-                        Company 
+                <li class="relative group">
+                    <div class="flex items-center">
+                        <a class="pr-1">Company</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
-                        <i class="fa-solid fa-chevron-up fa-sm hidden "></i>
-                    </a> 
-                    <ul
-                        class="ul-hidden hidden absolute top-10 bg-white
-                        rounded [&>li>a]:py-1 [&>li>a]:px-3 shadow-md w-56">
-                        <li>
-                            <a
-                                href="/contact"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Contact Us</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Mobile Inspection</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a 
-                                href="#" 
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Sales Force Automation</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="group relative">
-                    <a href="#">
-                        <span>Resources </span>
-                        <i class="fa-solid fa-chevron-down fa-sm"></i>
-                        <i class="fa-solid fa-chevron-up hidden fa-sm"></i>
-                    </a>
-                    <ul
-                        class="ul-hidden hidden absolute top-10 bg-white
-                        rounded [&>li>a]:py-1 [&>li>a]:px-3 shadow-md w-56">
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Usecases</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Templates</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="hover:bg-blue-600 flex gap-1 
-                                items-center duration-500 transition-all">
-                                <span>Blog</span>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
+                        <div class="top-6 px-3 py-3 rounded-md w-fit relative shadow-xl bg-white md:px-4">
+                            <ul class="cursor-pointer w-[150px]">
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg ">
+                                    <a>About Us</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a href="/contact">Contact us</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
 
                 <li class="group relative ">
                     <a href="/pricing">Pricing</a>
                 </li>
                 
-                <li class="group relative">
-                    <a href="#">
-                        <span id="languages">English</span>
+                <li class="relative group">
+                    <div class="flex items-center">
+                        <a class="pr-1">Resources</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
-                        <i class="fa-solid fa-chevron-up fa-sm hidden"></i>
-                    </a>
-                    <ul
-                        class="ul-hidden hidden absolute top-10 bg-white
-                        rounded [&>li>a]:py-[12px] [&>li>a]:px-8 shadow-md" id="languages-type">
-                        <li>
-                            <a
-                                href="#"
-                                class="flex justify-center gap-1
-                                items-center duration-500 transition-all lang">
-                                <span>English</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="flex justify-center gap-1
-                                items-center duration-500 transition-all lang">
-                                <span>Français</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                class="flex justify-center gap-1
-                                items-center duration-500 transition-all lang">
-                                <span>Español</span>
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
+                        <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-white md:px-4">
+                            <ul class="cursor-pointer w-[120px]">
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg ">
+                                    <a>Usecases</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a>Templates</a>
+                                </div>
+                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                    <a>Blog</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
-            </ul>
 
-            <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
-                <a href="Login.html" class="px-10 py-3 inline-block text-white">Login</a>
+            </ul>
+            <div class="flex items-center gap-6">
+                <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
+                    <a href="Login.html" class="px-10 py-3 inline-block text-white">Login</a>
+                </div>
+                <ul>
+                    <li class="group relative">
+                        <a href="#">
+                            <span id="languages">English</span>
+                            <i class="fa-solid fa-chevron-down fa-sm"></i>
+                            <i class="fa-solid fa-chevron-up fa-sm hidden"></i>
+                        </a>
+                        <ul
+                            class="ul-hidden hidden absolute top-10 bg-white
+                            rounded [&>li>a]:py-[12px] [&>li>a]:px-8 shadow-md" id="languages-type">
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex justify-center gap-1
+                                    items-center duration-500 transition-all lang">
+                                    <span>English</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex justify-center gap-1
+                                    items-center duration-500 transition-all lang">
+                                    <span>Français</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="flex justify-center gap-1
+                                    items-center duration-500 transition-all lang">
+                                    <span>Español</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
 
         </nav>
@@ -401,8 +365,8 @@
 
 <script>
 	//Selecting Elements from the DOM
-	const navOpenBtn = document.querySelector('#mobile-open-button');
-	const navCloseBtn = document.querySelector('#mobile-close-button');
+	const navOpenBtn = document.querySelector('#mobile-open-a');
+	const navCloseBtn = document.querySelector('#mobile-close-a');
 	const mobNavContainer = document.querySelector('#mobile-nav-container');
 	const chevronDown = document.querySelectorAll('.fa-chevron-down');
 	const chevronUp = document.querySelectorAll('.fa-chevron-up');
@@ -450,8 +414,8 @@
 					},
 				},
 				navigation: {
-					nextEl: '.next-button',
-					prevEl: '.prev-button',
+					nextEl: '.next-a',
+					prevEl: '.prev-a',
 				},
 			});
 		});
