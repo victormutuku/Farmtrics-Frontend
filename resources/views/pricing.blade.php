@@ -10,11 +10,23 @@
 <div class="relative">
     <div class="absolute bg-black -inset-0.5 blur opacity-5  mb-[200px] mx-[200px] rounded-[54px]"></div>
     <div class="relative bg-white border-2 mb-[200px] mx-[200px] rounded-[34px]">
-        <div class="px-10 py-8">
-            <h2 class=" font-semibold text-2xl">Estimate your spend</h2>
-            <p>Pricing is based on your monthly<br>recurring revenue</p>
-        </div>
-        <div>
+        <div class="flex flex-column items-center gap-[100px]">
+            <div class="px-10 py-8">
+                <h2 class=" font-semibold text-2xl">Estimate your spend</h2>
+                <p>Pricing is based on your monthly<br>recurring revenue</p>
+            </div>
+            <div class="relative">
+                <div class="absolute w-[590px] h-[10px] border-solid border-2 rounded-[54px] bg-gray-200 "></div>
+                <div class="relative w-[200px] h-[10px] bg-forestgreen rounded-[54px]"></div>
+                <div class="absolute top-[-47px] right-[-40px]">
+                    <div class="flex flex-col items-center">
+                        <span class="text-[0.7rem]">Your MRR:</span>
+                        <span class="text-[0.9rem]">$41K MRR</span>
+                        <div class="w-[24px] h-[24px] bg-forestgreen rounded-[54px] cursor-pointer"></div>
+                        <span class="text-[1.15rem] font-medium">$700/month</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="flex items-center justify-center mb-10">
             
