@@ -38,7 +38,7 @@
 
                 <li class="relative group">
                     <div class="flex items-center">
-                        <a class="pr-1">Services</a>
+                        <a class="pr-1 cursor-default">Services</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
@@ -66,7 +66,7 @@
 
                 <li class="relative group">
                     <div class="flex items-center">
-                        <a class="pr-1">Company</a>
+                        <a class="pr-1 cursor-default">Company</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
@@ -83,13 +83,13 @@
                     </div>
                 </li>
 
-                <li class="group relative ">
-                    <a href="/pricing">Pricing</a>
+                <li class="group relative">
+                    <a href="/pricing" class="cursor-default">Pricing</a>
                 </li>
                 
                 <li class="relative group">
                     <div class="flex items-center">
-                        <a class="pr-1">Resources</a>
+                        <a class="pr-1 cursor-default">Resources</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
@@ -115,15 +115,29 @@
                     <a href="Login.html" class="px-10 py-3 inline-block text-white">Login</a>
                 </div>
                 <ul>
-                    <li class="group relative">
-                        <a href="#">
-                            <span id="languages">English</span>
+                    <li class="relative group">
+                        <div class="flex items-center">
+                            <a class="pr-1 cursor-default">English</a>
                             <i class="fa-solid fa-chevron-down fa-sm"></i>
-                            <i class="fa-solid fa-chevron-up fa-sm hidden"></i>
-                        </a>
-                        <ul
-                            class="ul-hidden hidden absolute top-10 bg-white
-                            rounded [&>li>a]:py-[12px] [&>li>a]:px-8 shadow-md" id="languages-type">
+                        </div>
+                        <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
+                            <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
+                                <ul class="cursor-pointer w-[120px]" id="languages-type">
+                                    <div class="px-2 py-2 rounded-lg lang">
+                                        <a href="#">English</a>
+                                    </div>
+                                    <div class="px-2 py-2 rounded-lg lang">
+                                        <a href="#">Français</a>
+                                    </div>
+                                    <div class="px-2 py-2 rounded-lg lang">
+                                        <a href="#">Español</a>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    {{-- <ul class="ul-hidden hidden absolute top-10 bg-white
+                            rounded [&>li>a]:py-[12px] [&>li>a]:px-8 shadow-md" >
                             <li>
                                 <a
                                     href="#"
@@ -149,7 +163,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
 
