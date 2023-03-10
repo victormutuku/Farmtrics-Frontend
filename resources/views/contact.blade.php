@@ -13,13 +13,13 @@
         
         <form action="#" method="POST" class="w-[470px] ml-[80px] flex flex-col items-center">
             
-            <input placeholder="Full Name" type="text" name="fullName" class="mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen " required>
+            <input placeholder="Full Name" type="text" name="fullName" class=" border-forestgreen placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen " required>
             
-            <input placeholder="Business Name" type="text" name="businessName" class="mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
+            <input placeholder="Business Name" type="text" name="businessName" class=" border-forestgreen placeholder:text-forestgreen  mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
             
-            <input placeholder="Email" type="email" name="email" class="mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
+            <input placeholder="Email" type="email" name="email" class=" border-forestgreen placeholder:text-forestgreen  mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
             
-            <textarea placeholder="Add a note" type="text" name="note" class="mb-8 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required rows="6"></textarea>
+            <textarea placeholder="Add a note" type="text" name="note" class=" border-forestgreen  placeholder:text-forestgreen mb-8 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required rows="6"></textarea>
             
             <button  type="submit" class="bg-forestgreen text-white py-4 px-10 text-lg rounded-[14px]">Send Message</button>
          
