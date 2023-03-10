@@ -16,7 +16,7 @@
 		<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js">
 		</script>
 	</head>
-	<body class="min-h-full bg-gray-100">
+	<body class="min-h-full bg-green-100">
 		<!--Content Wrapper-->
 		<div class="h-full"> 
 		
@@ -38,22 +38,15 @@
 							    <a href="demo.html" class="py-4 px-10 inline-block text-lg text-white">Get Started</a>
 						    </div>
                         </div>
-                        
-                        
-						{{-- <img src="./bg-1.jpg" alt="" class="ml-6"> --}}
-					</div>
-					<div class="ml-6">
-					</div>
-				<div class="sm:max-w-full sm:h-full">
-					<!-- <img
-						class=" object-cover sm:h-full sm:w-full rounded-l-full"
-						src="/build/images/photo10.jpg"
-						alt="People in a meeting"
-					/> -->
-				</div>
-			</div>
+					</div>	
 			</main>
 			<!-- End of Main -->
+
+			<section>
+				<div class="flex flex-col item-center justify-center text-4xl mx-[90px] px-[120px] h-[300px]">
+					<p>Based in Rwanda, Farmtrics is a data company focused on collection of agricultural data through surveys.</p>
+				</div>
+			</section>
 
 
 			<!-- Service Section-->

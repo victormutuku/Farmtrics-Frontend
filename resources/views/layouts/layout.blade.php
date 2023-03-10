@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title') | Farmtrics</title>
 </head>
-<body class="min-h-full">
+<body class="min-h-full bg-green-100">
 
     <div class="h-full">
 

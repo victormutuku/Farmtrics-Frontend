@@ -14,7 +14,7 @@
     </head>
     <header class=" h-20 fixed w-full top-0 z-20"> 
 
-        <nav class="flex h-full md:justify-around justify-between items-center relative w-full bg-gray-100">
+        <nav class="flex h-full md:justify-around justify-between items-center relative w-full bg-green-100">
             <!-- Mobile Nav as -->
             <a 
                 id="mobile-open-a" 
@@ -42,25 +42,25 @@
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
-                        <div class="top-6 px-3 pt-3 pb-5 rounded-md w-fit relative shadow-xl bg-white md:px-4">
+                        <div class="top-6 px-3 pt-3 pb-5 rounded-md w-fit relative  bg-green-50 md:px-4">
                             <ul class="cursor-pointer w-[250px]">
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg ">
-                                    <a>Field Automation</a>
+                                <div class="px-2 py-2 rounded-lg ">
+                                    <a href="#">Field Automation</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
-                                    <a>Sales Automation</a>
+                                <div class="px-2 py-2 rounded-lg">
+                                    <a href="#">Sales Automation</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
-                                    <a>Mobile Inspection</a>
+                                <div class="px-2 py-2 rounded-lg">
+                                    <a href="#">Mobile Inspection</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
-                                    <a>Hybrid Survey Service</a>
+                                <div class="px-2 py-2 rounded-lg">
+                                    <a href="#">Hybrid Survey Service</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
-                                    <a>No Code Workflow Builder</a>
+                                <div class="px-2 py-2 rounded-lg">
+                                    <a href="#">No Code Workflow Builder</a>
                                 </div>
                             </ul>
-                        </div>
+                        </div>   
                     </div>
                 </li>
 
@@ -70,12 +70,12 @@
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
-                        <div class="top-6 px-3 py-3 rounded-md w-fit relative shadow-xl bg-white md:px-4">
+                        <div class="top-6 px-3 py-3 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
                             <ul class="cursor-pointer w-[150px]">
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg ">
-                                    <a>About Us</a>
+                                <div class="px-2 py-2 rounded-lg ">
+                                    <a href="#">About Us</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
+                                <div class="px-2 py-2 rounded-lg">
                                     <a href="/contact">Contact us</a>
                                 </div>
                             </ul>
@@ -93,16 +93,16 @@
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
-                        <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-white md:px-4">
+                        <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
                             <ul class="cursor-pointer w-[120px]">
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg ">
-                                    <a>Usecases</a>
+                                <div class="px-2 py-2 rounded-lg ">
+                                    <a href="#">Usecases</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
-                                    <a>Templates</a>
+                                <div class="px-2 py-2 rounded-lg">
+                                    <a href="#">Templates</a>
                                 </div>
-                                <div class="px-2 py-2 hover:bg-green-100 rounded-lg">
-                                    <a>Blog</a>
+                                <div class="px-2 py-2 rounded-lg">
+                                    <a href="#">Blog</a>
                                 </div>
                             </ul>
                         </div>

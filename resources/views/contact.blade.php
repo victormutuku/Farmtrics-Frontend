@@ -9,7 +9,7 @@
         <p class="text-xl leading-[30px] font-medium text-gray-800">Get in touch and let us know how we can assist</p>
     </div>
     <div class="flex justify-center mb-[200px]">
-        <div class="w-[470px] h-[518px] rounded-2xl bg-cover bg-center bg-green-100 bg-[url('../../public/phone.png')]"></div>
+        <div class="w-[470px] h-[518px] rounded-2xl bg-cover bg-center bg-green-200/70 bg-[url('../../public/phone.png')]"></div>
         
         <form action="#" method="POST" class="w-[470px] ml-[80px] flex flex-col items-center">
             
