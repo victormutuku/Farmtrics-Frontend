@@ -1,0 +1,22 @@
+<?php
+ return [
+    'Services' => 'Services',
+    'Company' => 'Company',
+    'Pricing' => 'Pricing',
+    'Resources' => 'Resources',
+    'Login' => 'Login',
+    'Field Automation' => 'Field Automation',
+    'Sales Automation' => 'Sales Automation',
+    'Mobile Inspection' => 'Mobile Inspection',
+    'Hybrid Survey Service' => 'Hybrid Survey Service',
+    'No-Code Workflow Builder' => 'No-Code Workflow Builder',
+    'About Us' => 'About Us',
+    'Contact Us' => 'Contact Us',
+    'Use cases' => 'Use cases',
+    'Templates' => 'Templates',
+    'Blog' => 'Blog',
+    'Coming soon' => 'Coming soon',
+    'English' => 'English',
+    'French' => 'French',
+    'Spanish' => 'Spanish',
+ ];
