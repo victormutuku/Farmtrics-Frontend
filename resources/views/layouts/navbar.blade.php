@@ -45,19 +45,19 @@
                         <div class="top-6 px-3 pt-3 pb-5 rounded-md w-fit relative  bg-green-50 md:px-4">
                             <ul class="cursor-pointer w-[250px]">
                                 <div class="px-2 py-2 rounded-lg ">
-                                    <a href="#">Field Automation</a>
+                                    <a href="#field-auto">Field Automation</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#">Sales Automation</a>
+                                    <a href="#sales-auto">Sales Automation</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#">Mobile Inspection</a>
+                                    <a href="#mobile-insp">Mobile Inspection</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#">Hybrid Survey Service</a>
+                                    <a href="#survey">Hybrid Survey Service</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#">No Code Workflow Builder</a>
+                                    <a href="#workflow">No Code Workflow Builder</a>
                                 </div>
                             </ul>
                         </div>   
@@ -94,25 +94,28 @@
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
                         <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
-                            <ul class="cursor-pointer w-[120px]">
+                            <ul class="cursor-pointer">
                                 <div class="px-2 py-2 rounded-lg ">
-                                    <a href="#">Usecases</a>
+                                    <a href="#">Use cases</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
                                     <a href="#">Templates</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#">Blog</a>
+                                    <a href="#" class="flex">
+                                        Blog
+                                        <x-coming-soon-chip/>
+                                    </a>
                                 </div>
                             </ul>
                         </div>
                     </div>
                 </li>
 
-            </ul>
+            </ul> 
             <div class="flex items-center gap-6">
                 <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
-                    <a href="Login.html" class="px-10 py-3 inline-block text-white">Login</a>
+                    <a href="/login" class="px-10 py-3 inline-block text-white">Login</a>
                 </div>
                 <ul>
                     <li class="relative group">
