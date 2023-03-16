@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
 
 Route::get('/pricing', function () {
     return view('pricing');
@@ -28,3 +30,8 @@ Route::get('/contact', function () {
 Route::get('/login', function(){
     return view('login');
 });
+
+Route::get('/', [LanguageController::class, 'index']);
+Route::get('/navbar', [LanguageController::class, 'navbar']);
+Route::get('/footer', [LanguageController::class, 'footer']);
+Route::get('/change', [LanguageController::class, 'change'])->name('changeLang');
