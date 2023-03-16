@@ -38,26 +38,26 @@
 
                 <li class="relative group">
                     <div class="flex items-center">
-                        <a class="pr-1 cursor-default">Services</a>
+                        <a class="pr-1 cursor-default">{{ __('navbar.Services') }}</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
                         <div class="top-6 px-3 pt-3 pb-5 rounded-md w-fit relative  bg-green-50 md:px-4">
                             <ul class="cursor-pointer w-[250px]">
                                 <div class="px-2 py-2 rounded-lg ">
-                                    <a href="#field-auto">Field Automation</a>
+                                    <a href="#field-auto">{{ __('navbar.Field Automation') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#sales-auto">Sales Automation</a>
+                                    <a href="#sales-auto">{{ __('navbar.Sales Automation') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#mobile-insp">Mobile Inspection</a>
+                                    <a href="#mobile-insp">{{ __('navbar.Mobile Inspection') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#survey">Hybrid Survey Service</a>
+                                    <a href="#survey">{{ __('navbar.Hybrid Survey Service') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#workflow">No Code Workflow Builder</a>
+                                    <a href="#workflow">{{ __('navbar.No-Code Workflow Builder') }}</a>
                                 </div>
                             </ul>
                         </div>   
@@ -66,17 +66,17 @@
 
                 <li class="relative group">
                     <div class="flex items-center">
-                        <a class="pr-1 cursor-default">Company</a>
+                        <a class="pr-1 cursor-default">{{ __('navbar.Company') }}</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
                         <div class="top-6 px-3 py-3 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
                             <ul class="cursor-pointer w-[150px]">
                                 <div class="px-2 py-2 rounded-lg ">
-                                    <a href="#">About Us</a>
+                                    <a href="#">{{ __('navbar.About Us') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="/contact">Contact us</a>
+                                    <a href="/contact">{{ __('navbar.Contact us') }}</a>
                                 </div>
                             </ul>
                         </div>
@@ -84,26 +84,26 @@
                 </li>
 
                 <li class="group relative">
-                    <a href="/pricing" class="cursor-default">Pricing</a>
+                    <a href="/pricing" class="cursor-default">{{ __('navbar.Pricing') }}</a>
                 </li>
                 
                 <li class="relative group">
                     <div class="flex items-center">
-                        <a class="pr-1 cursor-default">Resources</a>
+                        <a class="pr-1 cursor-default">{{ __('navbar.Resources') }}</a>
                         <i class="fa-solid fa-chevron-down fa-sm"></i>
                     </div>
                     <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
                         <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
                             <ul class="cursor-pointer">
                                 <div class="px-2 py-2 rounded-lg ">
-                                    <a href="#">Use cases</a>
+                                    <a href="#">{{ __('navbar.Use cases') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
-                                    <a href="#">Templates</a>
+                                    <a href="#">{{ __('navbar.Templates') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
                                     <a href="#" class="flex">
-                                        Blog
+                                        {{ __('navbar.Blog') }}
                                         <x-coming-soon-chip/>
                                     </a>
                                 </div>
@@ -115,25 +115,25 @@
             </ul> 
             <div class="flex items-center gap-6">
                 <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
-                    <a href="/login" class="px-10 py-3 inline-block text-white">Login</a>
+                    <a href="/login" class="px-10 py-3 inline-block text-white">{{ __('navbar.Login') }}</a>
                 </div>
                 <ul>
                     <li class="relative group">
                         <div class="flex items-center">
-                            <a class="pr-1 cursor-default">English</a>
+                            <a class="pr-1 cursor-default">{{ __('navbar.English') }}</a>
                             <i class="fa-solid fa-chevron-down fa-sm"></i>
                         </div>
                         <div class="absolute top-5 -left-3 transition opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-[1000] ease-in-out group-hover:transform z-50 w-max transform min-w-[calc(100vw_-_22px)] md:max-w-[771px]">
                             <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
                                 <ul class="cursor-pointer w-[120px]" id="languages-type">
                                     <div class="px-2 py-2 rounded-lg lang">
-                                        <a href="#">English</a>
+                                        <a href="#">{{ __('navbar.English') }}</a>
                                     </div>
                                     <div class="px-2 py-2 rounded-lg lang">
-                                        <a href="#">Français</a>
+                                        <a href="#">{{ __('navbar.French') }}</a>
                                     </div>
                                     <div class="px-2 py-2 rounded-lg lang">
-                                        <a href="#">Español</a>
+                                        <a href="#">{{ __('navbar.Spanish') }}</a>
                                     </div>
                                 </ul>
                             </div>

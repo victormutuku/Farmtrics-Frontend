@@ -9,7 +9,7 @@
 <footer class="text-center lg:text-left bg-forestgreen text-gray-100 px-[20px]">
     <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div class="mr-12 hidden lg:block">
-        <span>Get connected with us on social networks:</span>
+        <span>{{ __('footer.Get connected with us on social networks:') }}</span>
         </div>
         <div class="flex justify-center">
         <a href="#!" class="mr-6 text-gray-100">
@@ -53,7 +53,7 @@
         <div class="">
             <h6 class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start text-xl">Farmtrics</h6>
             <p>
-                Based in Rwanda, Farmtrics is a data company focused on collection of agricultural data through surveys.
+                {{ __('footer.Based in Rwanda, Farmtrics is a data company focused on collection of agricultural data through surveys.') }}
             </p>
         </div>
         <div class="">
@@ -137,7 +137,7 @@
         </div>
     </div>
     <div class="text-center p-6 bg-gradient-to-tr from-primary to-secondary">
-        <span>© 2023 Copyright:</span>
+        <span>{{ __('footer.© 2023 Copyright:')}}</span>
         <span class="text-gray-100 font-semibold">Farmtrics</span>
     </div>
 </footer>
