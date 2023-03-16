@@ -1,0 +1,20 @@
+{
+  "public/bg-2.jpg": {
+    "file": "assets/bg-2-11fc1760.jpg",
+    "src": "public/bg-2.jpg"
+  },
+  "public/phone.png": {
+    "file": "assets/phone-5e6aa955.png",
+    "src": "public/phone.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-4ebdf566.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-a6d2e222.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
