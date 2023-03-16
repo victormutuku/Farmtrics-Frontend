@@ -56,7 +56,7 @@
 					<h1 class="mt-12 ml-14 before:block before:absolute before:bottom-[-1rem] before:w-52 before:h-1 before:bg-secondary relative inline-block">Our Services</h1>
 				</div> 
 				<div class="flex items-center mx-[90px] pt-16" id="field-auto">
-					<div class="w-[500px] h-[400px] bg-[url('../../public/f-a.svg')] bg-no-repeat bg-contain bg-center transform scale-150"></div>
+					<div class="w-[500px] h-[400px] bg-[url('../../public/field-auto.svg')] bg-no-repeat bg-contain bg-center transform scale-150"></div>
 					<div class="pl-20 lg:w-[950px]">
 						<h3 class="text-5xl font-bold">Field Automation</h3>
 						<p class="text-3xl mt-5">Track the activities of your team in real-time with geo-tracking and top-notch analytics.</p>
@@ -81,10 +81,10 @@
 						<h3 class="text-5xl font-bold">Hybrid Survey Service</h3>
 						<p class="text-3xl mt-5">Create surveys on the go, ask questions that really matter, and get relevant feedback.</p>
 					</div>
-					<div class="w-[500px] h-[400px] bg-[url('../../public/hybrid.svg')] bg-no-repeat bg-contain bg-center"></div>
+					<div class="w-[500px] h-[400px] bg-[url('../../public/hybrid-survey.svg')] bg-no-repeat bg-contain bg-center"></div>
 				</div>
 				<div class="flex items-center mx-[90px] pt-16" id="workflow">
-					<div class="w-[500px] h-[400px] bg-[url('../../public/no-code.svg')] bg-no-repeat bg-contain bg-center"></div>
+					<div class="w-[500px] h-[400px] bg-[url('../../public/no-code.svg')] bg-no-repeat bg-contain bg-center transform scale-90"></div>
 					<div class="pl-20 lg:w-[950px]">
 						<h3 class="text-5xl font-bold">No-Code Workflow Builder</h3>
 						<p class="text-3xl mt-5">Bring your workflow to life with tap of a few buttons. </p>
