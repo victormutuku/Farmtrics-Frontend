@@ -51,22 +51,9 @@
     <div class="mx-6 py-10 text-center md:text-left">
         <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div class="">
-            <h6 class="
-                uppercase
-                font-semibold
-                mb-4
-                flex
-                items-center
-                justify-center
-                md:justify-start
-                text-xl
-            ">
-            
-            Farmtrics
-            </h6>
+            <h6 class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start text-xl">Farmtrics</h6>
             <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
-            sit amet, consectetur adipisicing elit.
+                Based in Rwanda, Farmtrics is a data company focused on collection of agricultural data through surveys.
             </p>
         </div>
         <div class="">
@@ -151,7 +138,7 @@
     </div>
     <div class="text-center p-6 bg-gradient-to-tr from-primary to-secondary">
         <span>© 2023 Copyright:</span>
-        <a class="text-gray-100 font-semibold" href="https://tailwind-elements.com/">Farmtrics</a>
+        <span class="text-gray-100 font-semibold">Farmtrics</span>
     </div>
 </footer>
 </html>
