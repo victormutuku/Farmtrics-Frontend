@@ -22,6 +22,11 @@ class LanguageController extends Controller
         return view('footer');
     }
 
+    public function pricing()
+    {
+        return view('pricing');
+    }
+
     public function change(Request $request)
     {
         App::setLocale($request->lang);
