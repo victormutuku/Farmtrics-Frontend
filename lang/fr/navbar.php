@@ -14,7 +14,7 @@ return [
     'Hybrid Survey Service' => 'Service d\'enquête hybride',
     'No-Code Workflow Builder' => 'Générateur de flux de travail sans code',
     'About Us' => 'À propos de nous',
-    'Contact us' => 'Contactez-nous',
+    'Contact Us' => 'Contactez-nous',
     'Use cases' => 'Cas d\'utilisation',
     'Templates' => 'Modèles',
     'Blog' => 'Blog',

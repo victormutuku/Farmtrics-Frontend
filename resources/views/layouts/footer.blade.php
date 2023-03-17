@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-         @vite('resources/css/app.css')
+        @vite('resources/css/app.css')
     </head>
 <footer class="text-center lg:text-left bg-forestgreen text-gray-100 px-[20px]">
     <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
@@ -12,7 +10,7 @@
         <span>{{ __('footer.Get connected with us on social networks:') }}</span>
         </div>
         <div class="flex justify-center">
-        <a href="#!" class="mr-6 text-gray-100">
+        <a href="#" class="mr-6 text-gray-100">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
             class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512">
@@ -21,7 +19,7 @@
             </path>
             </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-100">
+        <a href="#" class="mr-6 text-gray-100">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
             class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path fill="currentColor"
@@ -29,7 +27,7 @@
             </path>
             </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-100">
+        <a href="#" class="mr-6 text-gray-100">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path fill="currentColor"
@@ -37,7 +35,7 @@
             </path>
             </svg>
         </a>
-        <a href="#!" class="mr-6 text-gray-100">
+        <a href="#" class="mr-6 text-gray-100">
             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
@@ -61,16 +59,16 @@
             Products
             </h6>
             <p class="mb-4">
-            <a href="#!" class="text-gray-100">Home</a>
+            <a href="#" class="text-gray-100">Home</a>
             </p>
             <p class="mb-4">
-            <a href="#!" class="text-gray-100">Pricing</a>
+            <a href="#" class="text-gray-100">Pricing</a>
             </p>
             <p class="mb-4">
-            <a href="#!" class="text-gray-100">Course</a>
+            <a href="#" class="text-gray-100">Course</a>
             </p>
             <p>
-            <a href="#!" class="text-gray-100">Contact</a>
+            <a href="#" class="text-gray-100">Contact</a>
             </p>
         </div>
         <div class="">
@@ -78,16 +76,16 @@
             Useful links
             </h6>
             <p class="mb-4">
-            <a href="#!" class="text-gray-100">Pricing</a>
+            <a href="#" class="text-gray-100">Pricing</a>
             </p>
             <p class="mb-4">
-            <a href="#!" class="text-gray-100">Settings</a>
+            <a href="#" class="text-gray-100">Settings</a>
             </p>
             <p class="mb-4">
-            <a href="#!" class="text-gray-100">Orders</a>
+            <a href="#" class="text-gray-100">Orders</a>
             </p>
             <p>
-            <a href="#!" class="text-gray-100">Help</a>
+            <a href="#" class="text-gray-100">Help</a>
             </p>
         </div>
         <div class="">
