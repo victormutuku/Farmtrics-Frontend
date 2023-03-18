@@ -15,7 +15,7 @@ return [
     'No-Code Workflow Builder' => 'Générateur de flux de travail sans code',
     'About Us' => 'À propos de nous',
     'Contact Us' => 'Contactez-nous',
-    'Use cases' => 'Cas d\'utilisation',
+    'Use Cases' => 'Cas d\'utilisation',
     'Templates' => 'Modèles',
     'Blog' => 'Blog',
     'Coming soon' => 'À venir\'',

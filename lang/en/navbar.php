@@ -12,7 +12,7 @@
     'No-Code Workflow Builder' => 'No-Code Workflow Builder',
     'About Us' => 'About Us',
     'Contact Us' => 'Contact Us',
-    'Use cases' => 'Use cases',
+    'Use Cases' => 'Use Cases',
     'Templates' => 'Templates',
     'Blog' => 'Blog',
     'Coming soon' => 'Coming soon',
