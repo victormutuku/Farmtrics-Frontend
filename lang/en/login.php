@@ -5,5 +5,5 @@ return [
     'Email'=>'Email',
     'Password'=>'Password',
     'Don\'t have an account?'=>'Don\'t have an account?',
-    'Create one'=>'Create one',
+    'Create One'=>'Create One',
 ];

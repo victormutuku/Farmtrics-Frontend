@@ -37,6 +37,11 @@ class LanguageController extends Controller
         return view('login');
     }
 
+    public function signup()
+    {
+        return view('signup');
+    }
+
     public function change(Request $request)
     {
         App::setLocale($request->lang);

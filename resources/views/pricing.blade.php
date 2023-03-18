@@ -44,7 +44,7 @@
                     <div class="relative flex flex-col items-center bottom-[-109px]">
                         <a href="#" class="text-forestgreen font-bold mb-[40px]">{{ __('pricing.Learn More') }}</a>
                         <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
-                            <a href="#" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Sign up') }}</a>
+                            <a href="/signup" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Sign up') }}</a>
                         </div>
                     </div>
             </div>
@@ -63,7 +63,7 @@
                 <div class="relative flex flex-col items-center bottom-[-109px]">
                     <a href="#" class="text-forestgreen font-bold mb-[40px]">{{ __('pricing.Learn More') }}</a>
                     <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
-                        <a href="#" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Sign up') }}</a>
+                        <a href="/signup" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Sign up') }}</a>
                     </div>
                 </div> 
             </div>
@@ -74,7 +74,7 @@
                 <div class="relative flex flex-col items-center bottom-[-124px]">
                     <a href="#" class="text-forestgreen font-bold mb-[40px]">{{ __('pricing.Learn More') }}</a>
                     <div class="bg-forestgreen rounded-[14px] drop-shadow-sm hidden md:block">
-                        <a href="#" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Contact us') }}</a>
+                        <a href="/contact" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Contact us') }}</a>
                     </div>
                 </div>
             </div>

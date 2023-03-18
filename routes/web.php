@@ -37,4 +37,5 @@ Route::get('/footer', [LanguageController::class, 'footer']);
 Route::get('/pricing', [LanguageController::class, 'pricing']);
 Route::get('/contact', [LanguageController::class, 'contact']);
 Route::get('/login', [LanguageController::class, 'login']);
+Route::get('/signup', [LanguageController::class, 'signup']);
 Route::get('/change', [LanguageController::class, 'change'])->name('changeLang');
