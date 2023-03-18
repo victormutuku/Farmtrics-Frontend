@@ -34,5 +34,7 @@ Route::get('/login', function(){
 Route::get('/', [LanguageController::class, 'index']);
 Route::get('/navbar', [LanguageController::class, 'navbar']);
 Route::get('/footer', [LanguageController::class, 'footer']);
-Route::get('/footer', [LanguageController::class, 'pricing']);
+Route::get('/pricing', [LanguageController::class, 'pricing']);
+Route::get('/contact', [LanguageController::class, 'contact']);
+Route::get('/login', [LanguageController::class, 'login']);
 Route::get('/change', [LanguageController::class, 'change'])->name('changeLang');

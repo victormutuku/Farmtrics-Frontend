@@ -21,18 +21,18 @@
             <div class="flex justify-center mb-[200px] items-center">
                 <div class="w-[470px] h-[518px] rounded-2xl border-2 border-forestgreen"></div>
                 <div class="flex flex-col items-center ml-[80px] ">
-                    <h1 class="text-forestgreen text-6xl font-medium mb-16">Login</h1>
+                    <h1 class="text-forestgreen text-6xl font-medium mb-16">{{ __('login.Login') }}</h1>
                     <form action="#" method="POST" class="w-[470px] flex flex-col items-center">
                         
-                        <input placeholder="Email" type="email" name="email" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen " required>
+                        <input placeholder="{{ __('login.Email') }}" type="email" name="email" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen " required>
                         
-                        <input placeholder="Password" type="password" name="password" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
+                        <input placeholder="{{ __('login.Password') }}" type="password" name="password" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
                         
                         <input placeholder="Confirm Password" id="cpp" type="confirmPassword" name="confirmPassword" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>           
 
-                        <button  type="submit" class="bg-forestgreen text-white py-4 px-10 text-lg rounded-[14px]">Login</button>
+                        <button  type="submit" class="bg-forestgreen text-white py-4 px-10 text-lg rounded-[14px]">{{ __('login.Login') }}</button>
 
-                        <a href="#" class="mt-5"> Don't have an account? <span class="underline">Create One</span></a>
+                        <a href="#" class="mt-5"> {{ __('login.Don\'t have an account?') }} <span class="underline">{{ __('login.Create One') }}</span></a>
                     </form>
                 </div>
                 

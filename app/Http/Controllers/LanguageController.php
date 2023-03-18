@@ -27,6 +27,16 @@ class LanguageController extends Controller
         return view('pricing');
     }
 
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function login()
+    {
+        return view('login');
+    }
+
     public function change(Request $request)
     {
         App::setLocale($request->lang);
