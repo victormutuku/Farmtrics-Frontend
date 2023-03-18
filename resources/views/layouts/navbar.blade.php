@@ -13,16 +13,16 @@
     </head>
     <header class=" h-20 fixed w-full top-0 z-20"> 
 
-        <nav class="flex h-full md:justify-around justify-between items-center relative w-full bg-green-100">
+        <nav class="flex h-full md:justify-around justify-between items-center relative w-full lg:bg-green-100">
             <!-- Mobile Nav as -->
             <a 
                 id="mobile-open-a" 
-                class="text-4xl focus:outline-none md:hidden
-                pl-4 cursor-pointer"> &#9776</a>
+                class="text-4xl focus:outline-none lg:hidden
+                sm:pl-4 cursor-pointer"> &#9776</a>
             <a 
                 id="mobile-close-a" 
-                class="hidden text-6xl focus:outline-none md:hidden
-                pl-4 cursor-pointer">&times;</a>
+                class="hidden text-6xl focus:outline-none lg:hidden
+                sm:pl-4 cursor-pointer">&times;</a>
             <!-- End of Mobile Nav as -->
 
             <div class="relative ">
@@ -32,8 +32,8 @@
             </div>
 
             <ul
-                class="chev-parent  text-md [&>li>a]:py-5
-                [&>li>a]:px-3 md:flex hidden lg:gap-6 lg:mr-10">
+                class="chev-parent text-md [&>li>a]:py-5
+                [&>li>a]:px-3 lg:flex md:hidden sm:hidden lg:gap-6 lg:mr-10">
 
                 <li class="relative group">
                     <div class="flex items-center">
@@ -95,7 +95,7 @@
                         <div class="top-6 px-3 pt-3 pb-4 rounded-md w-fit relative shadow-xl bg-green-50 md:px-4">
                             <ul class="cursor-pointer">
                                 <div class="px-2 py-2 rounded-lg ">
-                                    <a href="#">{{ __('navbar.Use cases') }}</a>
+                                    <a href="#">{{ __('navbar.Use Cases') }}</a>
                                 </div>
                                 <div class="px-2 py-2 rounded-lg">
                                     <a href="#">{{ __('navbar.Templates') }}</a>
@@ -116,7 +116,7 @@
                 <div class="bg-forestgreen rounded-[14px] hidden md:block">
                     <a href="/login" class="px-10 py-3 inline-block text-white">{{ __('navbar.Login') }}</a>
                 </div>
-                <select aria-label="Select Language" class="form-control changeLang bg-green-100 px-2 py-2 shadow-none" name="language-selection">
+                <select aria-label="Select Language" class="form-control changeLang lg:bg-green-100 md:bg-transparent px-2 py-2 shadow-none" name="language-selection">
                     <option class="hover:bg-green-100" value="en"{{ session()->get('locale') =='en' ? 'selected' : '' }}>{{ __('navbar.English') }}</option>
                     <option class="hover:bg-green-100" value="fr"{{ session()->get('locale') =='fr' ? 'selected' : '' }}>{{ __('navbar.French') }}</option>
                 </select>
@@ -127,7 +127,7 @@
         <!--Mobile nav menu-->
         <div 
             id="mobile-nav-container"
-            class="md:hidden font-bold absolute bg-green-50 text-textLight
+            class="lg:hidden font-bold absolute bg-green-50 text-textLight
             w-screen transition duration-400 ease-in-out transform -translate-x-full"> 
             <ul
                 class="chev-parent 
