@@ -17,7 +17,7 @@
    'Easily create questionnaires and checklists and capture relevant information in your business.' => 'Easily create questionnaires and checklists and capture relevant information in your business.',
    
    'Hybrid Survey Service' => 'Hybrid Survey Service',
-   'Create surveys on the go, ask questions that really matter, and get relevant feedback.' => 'Créez des sondages où que vous soyez, posez des questions qui comptent vraiment et obtenez des commentaires pertinents.',
+   'Create surveys on the go, ask questions that really matter, and get relevant feedback.' => 'Create surveys on the go, ask questions that really matter, and get relevant feedback.',
    
    'No-Code Workflow Builder' => 'No-Code Workflow Builder',
    'Bring your workflow to life with tap of a few buttons.' => 'Bring your workflow to life with tap of a few buttons.',
