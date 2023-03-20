@@ -11,7 +11,7 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"/>
         @vite('resources/css/app.css')
-        <title>Sign In | Farmtrics</title>
+        <title>SignUp | Farmtrics</title>
     </head>
     <body class="bg-green-100">
     <div class="p-5"> 
