@@ -9,7 +9,7 @@ return [
     'Enterprise' => 'Enterprise',
     '$8/month' => '$8/month',
     '$20/month' => '$20/month',
-    'Contact Sales' =>'Contact Sales',
+    'Contact Sales' =>'Contact<br/>Sales',
     'Learn More' => 'Learn More',
     'Sign up' => 'Sign up',
     'Contact us' => 'Contact us',
