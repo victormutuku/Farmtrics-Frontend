@@ -11,7 +11,7 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"/>
         @vite('resources/css/app.css')
-        <title>Sign In | Farmtrics</title>
+        <title>Login | Farmtrics</title>
     </head>
     <body class="bg-green-100">
     <div class="p-5"> 
@@ -27,10 +27,15 @@
                         <input placeholder="{{ __('login.Email') }}" type="email" name="email" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen " required>
                         
                         <input placeholder="{{ __('login.Password') }}" type="password" name="password" class="border-none placeholder:text-forestgreen mb-6 border-2 py-4 pl-4 rounded-2xl w-full focus:outline-none focus:border-forestgreen" required>
-                        
+                    
+                        <a href="/signup" class="underline mb-6">{{__('login.Forgot Password?') }}</a>
+                    
                         <button  type="submit" class="bg-forestgreen text-white py-4 px-10 text-lg rounded-[14px]">{{ __('login.Login') }}</button>
 
-                        <a href="/signup" class="mt-5"> {{ __('login.Don\'t have an account?') }} <span class="underline">{{ __('login.Create One') }}</span></a>
+                        <a href="/signup" class="mt-5">
+                            {{ __('login.Don\'t have an account?') }}
+                            <span class="underline">{{ __('login.Create One') }}</span>
+                        </a> 
                     </form>
                 </div>
                 

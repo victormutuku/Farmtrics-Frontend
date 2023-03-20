@@ -6,4 +6,5 @@ return [
     'Password'=>'Password',
     'Don\'t have an account?'=>'Don\'t have an account?',
     'Create One'=>'Create One',
+    'Forgot Password?' => 'Forgot Password?'
 ];
