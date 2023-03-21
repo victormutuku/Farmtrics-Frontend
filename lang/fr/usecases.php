@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'Use Cases'=> ''
+    'Use Cases'=> 'Cas d\'utilisation'
 ];
