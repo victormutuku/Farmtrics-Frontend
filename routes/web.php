@@ -15,22 +15,6 @@ use Illuminate\Support\Facades\App;
 |
 */
 
-// Route::get('/', function () {
-//     return view('index');
-// });
-
-Route::get('/pricing', function () {
-    return view('pricing');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/login', function(){
-    return view('login');
-});
-
 Route::get('/', [LanguageController::class, 'index']);
 Route::get('/navbar', [LanguageController::class, 'navbar']);
 Route::get('/footer', [LanguageController::class, 'footer']);
@@ -38,4 +22,6 @@ Route::get('/pricing', [LanguageController::class, 'pricing']);
 Route::get('/contact', [LanguageController::class, 'contact']);
 Route::get('/login', [LanguageController::class, 'login']);
 Route::get('/signup', [LanguageController::class, 'signup']);
+Route::get('/usecases', [LanguageController::class, 'usecases']);
+Route::get('/templates', [LanguageController::class, 'templates']);
 Route::get('/change', [LanguageController::class, 'change'])->name('changeLang');

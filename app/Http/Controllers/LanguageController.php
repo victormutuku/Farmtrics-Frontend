@@ -42,6 +42,16 @@ class LanguageController extends Controller
         return view('signup');
     }
 
+    public function usecases()
+    {
+        return view('usecases');
+    }
+
+    public function templates()
+    {
+        return view('templates');
+    }
+
     public function change(Request $request)
     {
         App::setLocale($request->lang);
