@@ -24,4 +24,5 @@ Route::get('/login', [LanguageController::class, 'login']);
 Route::get('/signup', [LanguageController::class, 'signup']);
 Route::get('/usecases', [LanguageController::class, 'usecases']);
 Route::get('/templates', [LanguageController::class, 'templates']);
+Route::get('/pagebroken', [LanguageController::class, 'pagebroken']);
 Route::get('/change', [LanguageController::class, 'change'])->name('changeLang');

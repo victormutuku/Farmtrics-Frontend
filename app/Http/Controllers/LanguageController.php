@@ -52,6 +52,11 @@ class LanguageController extends Controller
         return view('templates');
     }
 
+    public function pagebroken()
+    {
+        return view('pagebroken');
+    }
+
     public function change(Request $request)
     {
         App::setLocale($request->lang);
