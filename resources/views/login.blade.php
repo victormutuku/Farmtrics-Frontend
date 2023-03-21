@@ -20,7 +20,8 @@
         <div class="mt-[100px]">
             <div class="flex justify-center mb-[200px] items-center">
                 <div class="w-[470px] h-[518px] rounded-2xl border-2 border-forestgreen"></div>
-                <div class="flex flex-col items-center ml-[80px] ">
+                {{-- <div class="flex flex-col items-center border-2 border-forestgreen/40 h-[512px] w-fit mx-[120px] my-20"></div> --}}
+                <div class="flex flex-col items-center ml-20">
                     <h1 class="text-forestgreen text-6xl font-medium mb-16">{{ __('login.Login') }}</h1>
                     <form action="#" method="POST" class="w-[470px] flex flex-col items-center">
                         
