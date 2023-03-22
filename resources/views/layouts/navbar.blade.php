@@ -27,7 +27,7 @@
             </div>
 
             <!--Web Navbar-->
-            <x-web-navbar/>
+            <x-navbar.web-navbar/>
             <!--End of Web Navbar-->
 
             <div class="flex items-center gap-6">
@@ -43,7 +43,7 @@
         </nav>
 
         <!--Mobile nav menu-->
-        <x-mobile-navbar/>
+        <x-navbar.mobile-navbar/>
         <!--End of Mobile nav menu-->
     </header> 
 </html>
