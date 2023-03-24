@@ -22,7 +22,7 @@
             <li>{{ __('pricing.2 data collection forms') }}</li>
             <li>{{ __('pricing.Collect respondent identity') }}</li>
             <li>{{ __('pricing.Customized development') }}</li>  
-            <li>{{ __('pricing.Dedicated Account Manager') }}</li>          
+            <li>{{ __('pricing.Dedicated account manager') }}</li>          
             <li>{{ __('pricing.24/7 support') }}</li>
          </ul>
          <div class="relative">

@@ -42,7 +42,7 @@ return [
     'Collect respondent identity' => 'Collect respondent identity',
     'Customized development' => 'Customized development',
     '2 data collection forms' => '2 data collection forms',
-    'Dedicated Account Manager' => 'Dedicated Account Manager',
+    'Dedicated account manager' => 'Dedicated account manager',
     'More than 100 users?' => 'More than 100 users?',
     'The client can increase the number of workflows at $5 per workflow per month' => 'The client can increase the number of workflows at $5 per workflow per month',
     'Respondent Identities Collection is subjected to GDPR regulations' => 'Respondent Identities Collection is subjected to GDPR regulations',
