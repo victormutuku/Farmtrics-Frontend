@@ -27,7 +27,7 @@
          </div>
     </div>
     <div class="absolute bottom-10">
-        <div class="bg-forestgreen rounded-[14px] drop-shadow-sm">
+        <div class="bg-forestgreen rounded-[14px]">
             <a href="/signup" class="py-4 px-10 inline-block text-lg text-white">{{ __('pricing.Sign up') }}</a>
         </div>
     </div>
