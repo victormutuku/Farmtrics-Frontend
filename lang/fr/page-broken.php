@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'Page Broken' => 'Page cassée',
+    'Coming Soon' => 'À venir\'',
     'Page is still under construction' => 'La page est encore en construction',
 ];

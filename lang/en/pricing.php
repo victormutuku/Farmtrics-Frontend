@@ -10,7 +10,9 @@ return [
      
     'No. of mobile users' => 'No. of mobile users',
     '15' => '15',
-    '$75/month' => '$75/month',
+    '$8/month' => '$8/month',
+    '$20/month' => '$20/month',
+    
 
     'Starter'=>'Starter',
     'Pro' => 'Pro',
@@ -21,7 +23,7 @@ return [
 
     'Contact Sales' =>'Contact Sales',
     'Learn More' => 'Learn More',
-    'Sign up' => 'Sign up',
+    'Get Started' => 'Get Started',
     'Contact us' => 'Contact us',
 
     '4 users minimum' => '4 users minimum',
@@ -37,18 +39,24 @@ return [
     'Mobile user management' => 'Mobile user management',
     'Mobile notifications (Email, SMS)' => 'Mobile notifications (Email, SMS)',
     'Field activities monitoring' => 'Field activities monitoring',
-    '1 data collection form' => '1 data collection form',
+    '3 data collection forms' => '3 data collection forms',
     '24/7 support' => '24/7 support',
     'Collect respondent identity' => 'Collect respondent identity',
     'Customized development' => 'Customized development',
     '2 data collection forms' => '2 data collection forms',
     'Dedicated account manager' => 'Dedicated account manager',
     'More than 100 users?' => 'More than 100 users?',
-    'The client can increase the number of workflows at $5 per workflow per month' => 'The client can increase the number of workflows at $5 per workflow per month',
-    'Respondent Identities Collection is subjected to GDPR regulations' => 'Respondent Identities Collection is subjected to GDPR regulations',
+
+    'The client can increase the number of' => 'The client can increase the number of',
+    'data collection forms' => 'data collection forms',
+    'at $2 per workflow per month.' => 'at $2 per workflow per month.',
+
+    'Respondent Identities Collection is subjected to GDPR regulations.' => 'Respondent Identities Collection is subjected to GDPR regulations.',
     'For agribusinesses, we offer free tips on agribusiness management every Monday and customized advice every Saturday through our' => 'For agribusinesses, we offer free tips on agribusiness management every Monday and customized advice every Saturday through our',
-    'Telegram group.' => 'Telegram group.',
-    'For survey projects where the customer does not have field agents, we assist in getting field agents in the target areas. Their payment is to be incurred by the customer at $1.80 per submission.' => 'For survey projects where the customer does not have field agents, we assist in getting field agents in the target areas. Their payment is to be incurred by the customer at $1.80 per submission.',
-    'Free templates available for all plans.' => 'Free templates available for all plans.',
+    'Telegram group' => 'Telegram group',
+    'For survey projects where the customer does not have field agents, we assist in getting field agents in the target areas. The payment is to be incurred by the customer.' => 'For survey projects where the customer does not have field agents, we assist in getting field agents in the target areas. The payment is to be incurred by the customer.',
+    'Free' => 'Free',
+    'templates' => 'templates',
+    'available for all plans.' => 'available for all plans.',
     
 ];

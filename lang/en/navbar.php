@@ -19,4 +19,5 @@
     'English' => 'English',
     'French' => 'French',
     'Spanish' => 'Spanish',
+    'Back to Homepage' => 'Back to Homepage', 
  ];

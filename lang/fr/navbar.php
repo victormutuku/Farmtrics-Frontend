@@ -5,7 +5,7 @@ use function Ramsey\Uuid\v1;
 return [
     'Services' => 'Prestations de service',
     'Company' => 'Entreprise',
-    'Pricing' => 'Tarification',
+    'Pricing' => 'Prix',
     'Resources' => 'Ressources',
     'Login' => 'Connexion',
     'Field Automation' => 'Automatisation de terrain',
@@ -22,4 +22,5 @@ return [
     'English' => 'Anglais',
     'French' => 'Français',
     'Spanish' => 'Espagnol',
+    'Back to Homepage' => 'Retour à la page d\'accueil',
 ];
