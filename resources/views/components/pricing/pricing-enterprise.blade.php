@@ -11,7 +11,7 @@
     </div>
     <div class="absolute bottom-10">
         <div class="bg-forestgreen rounded-[14px]">
-            <a href="/contact" class="py-4 px-10 inline-block text-lg text-white overflow-hidden whitespace-nowrap">{{ __('pricing.Contact us') }}</a>
+            <a href="/contact" class="py-4 px-10 inline-block text-lg text-white overflow-hidden whitespace-nowrap">{{ __('pricing.Contact Sales') }}</a>
         </div>
     </div>
 </div>
