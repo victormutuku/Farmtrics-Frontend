@@ -29,7 +29,10 @@ module.exports = {
     extend: {
       colors:{
         'forestgreen':'#0c3026',
-        'othergreen': '#195A00'
+        'nblue': '#0F66F3',
+        'nmagenta': '#F80851',
+        'npurple': '#B633D2',
+        'bgray': '#FAFBFD'
       }
     },
   },
